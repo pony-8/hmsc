@@ -1,13 +1,13 @@
-# coding: utf-8
 from sqlalchemy import Column, DateTime, Integer, Numeric, String
 from sqlalchemy.schema import FetchedValue
 from flask_sqlalchemy import SQLAlchemy
+from application import db
 
 
-db = SQLAlchemy()
+# db = SQLAlchemy()
 
 
-class Good(db.Model):
+class Goods(db.Model):
     __tablename__ = 'goods'
 
     id = db.Column(db.Integer, primary_key=True)
