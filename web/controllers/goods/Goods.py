@@ -7,6 +7,8 @@ from application import app,db
 
 router_goods = Blueprint("goods_page",__name__)
 
+
+
 @router_goods.route("/index")
 def index():
     resp_data = {}
