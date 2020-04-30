@@ -5,6 +5,7 @@ from common.libs.UrlManager import UrlManager
 from common.models.goods.Goods import Goods
 from application import app,db
 
+
 router_goods = Blueprint("goods_page",__name__)
 
 
